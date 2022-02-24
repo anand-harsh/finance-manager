@@ -33,3 +33,5 @@ http://localhost/finance-manager-main
 ```
 
 Note: finance-manager-main is name of zip file downloaded 
+
+# Dont for give star on this project
