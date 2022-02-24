@@ -10,11 +10,10 @@ Way to Use:
 
 2] Connect Apache and MySql
 
-3] Open 
+3] Open below link on browser.
 ```
  http://localhost/phpmyadmin 
 ```
-on browser.
 
 4] Click on New
 
@@ -28,10 +27,9 @@ on browser.
 
 7] Import database.zip
 
-8] now open 
+8] now open below link on browser
 ```
 http://localhost/finance-manager-main 
 ```
-on browser
 
 Note: finance-manager-main is name of zip file downloaded 
