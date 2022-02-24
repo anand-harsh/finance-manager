@@ -1,0 +1,442 @@
+/* Coded by Harsh Anand */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+
+}
+ html{
+  scroll-behavior: smooth;
+ }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #fcde67;
+}
+.item{
+	width: 60%;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 2rem;
+	font-weight: bold;
+}
+/*nav ul{
+	position: absolute;
+	display: flex;
+	list-style: none;
+	margin-top: 1rem;
+	top: 20px;
+	left: 90px;
+}
+nav ul li{
+	padding-right: 1rem;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: #18191F;
+	font-weight: bold;
+}*/
+.title {
+  background-color: silver;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 1rem;
+  top: 30px;
+}
+/*.logo{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+}*/
+
+.container {
+	position: absolute;
+  padding: 90px 80px;
+  border-radius: 1rem;
+  border: 3px solid white;
+  margin: 25px;
+  /* width: 350px; */
+  background: url('http://i.stack.imgur.com/oslRB.png');
+  left: 480px;
+  top: 700px;
+}
+
+h1 {
+  letter-spacing: 2px;
+  margin: 0;
+  margin: 10px 0 10px;
+  text-transform: uppercase;
+}
+
+h3 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 5px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: azure;
+  color: black;
+}
+
+h4 {
+  margin: 0;
+  text-transform: uppercase;
+  color: azure;
+  font-size: 15px;
+}
+#balance {
+  color: azure;
+}
+
+.income-expense {
+  background: url(grass.jpg);
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 2rem;
+  box-shadow: 0 5px 6px rgba(58, 73, 80, 0.685),
+    0 5px 6px rgba(58, 73, 80, 0.685);
+}
+
+.income-expense > div {
+  flex: 1;
+  text-align: center;
+}
+
+.dropbtn {
+  position: relative;
+  left: 20px;
+  border: 1px solid silver;
+  margin-bottom: 15px;
+  border-radius: 1rem;
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+  width: 5rem;
+  /* display: block; */
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 1px 2px 1px #000000;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0000FF;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.income,
+.expense,
+#balance {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 5px 0;
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+
+.income {
+  color: green;
+}
+.expense {
+  color: #c34234d3;
+}
+#balance {
+  color: rgb(72, 90, 255);
+}
+.bg-dark {
+  background-color: black;
+  margin: 0 2px;
+
+  border-radius: 1rem;
+}
+
+input[type="text"],
+input[type="number"] {
+ border: 1px solid silver;
+  margin-bottom: 15px;
+  left: 100px;
+  border-radius: 1rem;
+  margin-left: 55px;
+  display: flex;
+  flex-direction: column;
+  width: 5rem;
+  /* display: block; */
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 1px 2px 1px #000000;
+}
+label {
+  display: inline-block;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 30px;
+  padding: 8px 0;
+  border-radius: 1rem;
+  outline: none;
+  background-color: brown;
+  color: whitesmoke;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.btn:hover {
+  color: steelblue;
+  background-color: whitesmoke;
+}
+.form-control{
+	position: relative;
+	left: 40px;
+}
+
+.delete-btn {
+  background-color: rgb(139, 192, 235);
+  border-radius: 1rem;
+  outline: none;
+  float: right;
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+#text:focus,
+#amount:focus {
+	position: relative;
+	left: 20px;
+  width: 110%;
+  
+  border-bottom: 2px solid steelblue;
+  border-right: 2px solid steelblue;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+}
+ul li {
+  font-weight: bolder;
+  font-size: 21px;
+}
+
+.fa {
+  color: steelblue;
+}
+.fa:hover {
+  transform: rotate(20deg);
+}
+
+#error_msg {
+  color: red;
+  background-color: rgb(224, 189, 183);
+  font-weight: bolder;
+  padding: 0 10px;
+  border-radius: 1rem;
+}
+
+.list {
+  color: azure;
+}
+
+.minus,
+.plus {
+  margin-bottom: 8px;
+  border-bottom: 1px solid rgb(177, 177, 177);
+}
+.minus:hover,
+.plus:hover {
+  background-color: rgb(114, 114, 114);
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  font-weight: bolder;
+  color: black;
+}
+footer a {
+  color: rgb(86, 184, 197);
+}
+.type {
+	position: relative;
+  top: -90px;
+  left: -150px;
+  display:inline-flex;
+  background: url(grass.jpg);
+  background-size: cover;
+  padding: 20px;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.type span {
+  word-break: break-all;
+  height: 2.2em;
+  width:0%;
+  overflow: hidden;
+  animation:t 6s linear infinite alternate;
+  line-height: 4rem;
+}
+.type span:before {
+  content:" ";
+  display:inline-block;
+}
+
+@keyframes t{
+  90%,100% {width:100%}
+}
+
+
+/**/
+
+h1 {
+  display:table;
+  margin:auto;
+}
+
+p {
+  font-size:25px;
+}
+
+p + p {
+  font-style:italic;
+}
+.cname{
+	
+  display: flex;
+	
+  top: -220px;
+  left: 5px;
+  position: relative;
+  
+  display:inline-flex;
+  background: url(grass.jpg);
+  background-size: cover;
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.quote{
+	position: absolute;
+	display: flex;
+	top: 450px;
+	left: 80px;
+	font-family: sans-serif;
+}
+.author{
+	position: absolute;
+	display: flex;
+	top: 500px;
+	left: 870px;
+	font-family: sans-serif;
+}
+.footer{
+    position: absolute;
+    width: 1519px;
+    height: 70px;
+    left: 0px;
+    top: 2050px;
+    background: #000000;
+
+}
+/* socail media handles*/
+.insta{
+  position: absolute;
+  left: 1130px;
+  top: 2054px;
+  float: right;
+  overflow: hidden;
+}
+.insta:hover{
+  -webkit-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  transition: .8s ease;
+}
+.brow{
+  position: absolute;
+  left: 1190px;
+  top: 2054px;
+  float: right;
+  overflow: hidden;
+}
+.brow:hover{
+  -webkit-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  transition: .8s ease;
+}
+.twit{
+  position: absolute;
+  left: 1250px;
+  top: 2054px;
+  float: right;
+  overflow: hidden;
+}
+.twit:hover{
+  -webkit-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  transition: .8s ease;
+}
+.yt{
+  position: absolute;
+  left: 1310px;
+  top: 2054px;
+  float: right;
+  overflow: hidden;
+}
+.yt:hover{
+  -webkit-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  -moz-box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  box-shadow: 10px 10px 100px 10px rgba(255,255,255,1);
+  transition: .8s ease;
+}
+.copyright{
+
+  position: absolute;
+  top: 2067px;
+  left: 580px;
+  color: white 
+}
+.flogo{
+  position: absolute;
+  left: 5px;
+  top:2067px;
+  color: white;
+}
+/*Have A Nice Day */
