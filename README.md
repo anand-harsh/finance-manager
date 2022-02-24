@@ -1,4 +1,8 @@
-# finance-manager
+# FINANZAS
+
+A webpage in which u can manage your personal finances and deposit, spend and balance records
+
+Finanzas is latin work of finances
 
 Way to Use:
 
@@ -6,7 +10,11 @@ Way to Use:
 
 2] Connect Apache and MySql
 
-3] Open http://localhost/phpmyadmin on browser.
+3] Open 
+```
+$ http://localhost/phpmyadmin 
+```
+on browser.
 
 4] Click on New
 
@@ -20,6 +28,10 @@ Way to Use:
 
 7] Import database.zip
 
-8] now open http://localhost/finance-manager-main on browser
+8] now open 
+```
+http://localhost/finance-manager-main 
+```
+on browser
 
 Note: finance-manager-main is name of zip file downloaded 
