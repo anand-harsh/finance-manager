@@ -12,7 +12,7 @@ Way to Use:
 
 3] Open 
 ```
-$ http://localhost/phpmyadmin 
+ http://localhost/phpmyadmin 
 ```
 on browser.
 
