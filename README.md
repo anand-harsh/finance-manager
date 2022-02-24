@@ -12,7 +12,7 @@ Way to Use:
 
 ![image](https://user-images.githubusercontent.com/94885893/155516817-b148f93b-1823-4058-aaa2-e56e021e0405.png)
 
-5] Enter Database name and click on Create
+5] Enter " login_register_finanza_users " in Database name and click on Create
 
 ![image](https://user-images.githubusercontent.com/94885893/155516964-ae0ae406-e89a-48b4-88b0-4b8e2ccfe470.png)
 
