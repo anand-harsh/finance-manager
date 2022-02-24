@@ -2,7 +2,7 @@
 
 A webpage in which u can manage your personal finances and deposit, spend and balance records
 
-Finanzas is latin work of finances
+Finanzas is latin word of finances
 
 Way to Use:
 
