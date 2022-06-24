@@ -1,6 +1,6 @@
 # FINANZAS
 
-https://finanzasapp.epizy.com
+http://finanzasapp.epizy.com
 
 A webpage in which u can manage your personal finances and deposit, spend and balance records
 
